@@ -6,6 +6,7 @@ package com.hhp.factory;
 public class NvWa {
 
     public static void main(String[] args) {
+        // 23242
         System.out.println("第一次造人，火候不够，白人诞生");
         Human whiteHuman = HumanFactory.createHuman(WhiteHuman.class);
         whiteHuman.getColor();
